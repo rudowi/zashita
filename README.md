@@ -2,8 +2,11 @@
 Система состоит из 4 серверов на базе ubuntu 22.04
 
 1.Nginx,Mysql(master),filebeat,prometheus-node-exporter
+
 2.Apache2 , Mysql(slave),prometheus-node-exporter
+
 3.Apache2 , prometheus-node-exporter
+
 4.Prometheus + grafana , elasticsearch + kibana + logstash , prometheus-node-exporter
 
 Клонируем репозиторий на каждом сервере с помощью скрипта 
@@ -23,5 +26,7 @@ bash /root/yee/projects/serv_p4.sh
 
 
 Для потабличного бекапа со slave , выполняем скрипт
+
 bash /root/yee/projects/backupmysql.sh
+
 
