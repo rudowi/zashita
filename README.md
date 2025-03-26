@@ -1,5 +1,6 @@
 #Репозиторий для проектной работы
 Система состоит из 4 серверов на базе ubuntu 22.04
+
 1.Nginx,Mysql(master),filebeat,prometheus-node-exporter
 2.Apache2 , Mysql(slave),prometheus-node-exporter
 3.Apache2 , prometheus-node-exporter
