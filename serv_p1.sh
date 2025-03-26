@@ -5,6 +5,7 @@ echo "Установка nginx"
 apt install -y nginx
 systemctl enable nginx.service
 cp -r /root/yee/projects/Configs/serv1/nginx* /etc/nginx/
+cp -r /root/yee/projects/Configs/serv1/nginx/conf.d/* /etc/nginx/conf.d/
 systemctl restart nginx.service
 echo "nginx установлен"
 
