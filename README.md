@@ -10,6 +10,7 @@
 4.Prometheus + grafana , elasticsearch + kibana + logstash , prometheus-node-exporter
 
 Клонируем репозиторий на каждом сервере с помощью скрипта 
+
 wget https://raw.githubusercontent.com/rudowi/zashita/refs/heads/main/gitsetup.sh
 
 Настраиваем сервер 1 
