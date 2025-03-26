@@ -1,13 +1,13 @@
 #Репозиторий для проектной работы
 Система состоит из 4 серверов на базе ubuntu 22.04
 
-1.Nginx,Mysql(master),filebeat,prometheus-node-exporter
+1.Nginx,Mysql(master),filebeat,prometheus-node-exporter 192.168.0.7
 
-2.Apache2 , Mysql(slave),prometheus-node-exporter
+2.Apache2 , Mysql(slave),prometheus-node-exporter 192.168.0.9
 
-3.Apache2 , prometheus-node-exporter
+3.Apache2 , prometheus-node-exporter 192.168.0.8
 
-4.Prometheus + grafana , elasticsearch + kibana + logstash , prometheus-node-exporter
+4.Prometheus + grafana , elasticsearch + kibana + logstash , prometheus-node-exporter 192.168.0.10
 
 Клонируем репозиторий на каждом сервере с помощью скрипта 
 
