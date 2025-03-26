@@ -20,7 +20,7 @@ echo "prometheus-node-exporter установлен"
 apt install -y mysql-server-8.0
 systemctl start mysql
 #mysql_secure_installation
-cp ~/yee/projects/Configs/serv2/mySQL/mysql.cnf /etc/mysql/mysql.conf.d/
+cp ~/yee/projects/Configs/serv2/mySQL/mysqld.cnf /etc/mysql/mysql.conf.d/
 systemctl restart mysql
 mysql -e "STOP REPLICA;"
 mysql -e "CHANGE REPLICATION SOURCE TO SOURCE_HOST='192.168.0.7', SOURCE_USER='repl', SOURCE_PASSWORD='11', SOURCE_AUTO_POSITION = 1, GET_SOURCE_PUBLIC_KEY = 1;"
