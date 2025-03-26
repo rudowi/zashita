@@ -78,3 +78,7 @@ binlog_do_db = test_db1
 binlog_do_db = test_db2
 
 # binlog_ignore_db	= include_database_name
+gtid_mode=ON
+enforce-gtid-consistency=ON
+log-bin=mysql-bin
+log-slave-updates=ON
